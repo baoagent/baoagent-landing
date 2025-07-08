@@ -3,13 +3,16 @@ const HowItWorksSection = () => (
     <h2 className="text-2xl font-semibold mb-4 text-gray-900 text-center">How It Works</h2>
     <ul className="space-y-4 text-gray-700 text-base list-disc list-inside">
       <li>
-        <span className="font-medium">Automate Repetitive Admin Tasks:</span> Our AI agents handle bookkeeping, scheduling, payroll, and more—freeing you to focus on growth.
+        <span className="font-medium">Automated Customer Scheduling:</span> Our AI agent handles appointment booking via text, phone calls, and email, plus sends periodic scheduling reminders to keep customers engaged.
       </li>
       <li>
-        <span className="font-medium">Agent-Based Customer Service:</span> Provide 24/7 support for scheduling and inquiries, ensuring your customers always get timely, accurate responses.
+        <span className="font-medium">Intelligent Staffing & Resource Management:</span> Automatically schedules personnel and equipment based on time availability, location proximity, and skill requirements for optimal efficiency.
       </li>
       <li>
-        <span className="font-medium">Accessible to All:</span> No decades of industry experience required—just drive and intelligence.
+        <span className="font-medium">Seamless Billing & Collections:</span> Handles invoice generation, payment collection, and automated follow-up via multiple channels (text, phone, email) with escalation protocols for overdue accounts.
+      </li>
+      <li>
+        <span className="font-medium">Comprehensive Business Analytics:</span> Provides real-time insights on customer patterns, revenue trends, operational efficiency, and predictive analytics to drive strategic decision-making and growth opportunities.
       </li>
     </ul>
   </section>

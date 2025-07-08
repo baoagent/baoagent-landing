@@ -10,7 +10,7 @@ const HeroSection = () => (
       AI-Powered Small Business Administrative Operations Platform
     </p>
     <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-      Democratizing small business administrative operations through intelligent automation and innovative agent-based customer service. We bridge the generational knowledge gap between aging business owners and young operators, using AI agents to transform manual, repetitive workflows into efficient, scalable operations.
+      Democratizing small business administrative operations through intelligent automation. We bridge the generational knowledge gap between aging business owners and young operators, using AI agents to transform manual, repetitive workflows into efficient, scalable operations.
     </p>
   </header>
 );
