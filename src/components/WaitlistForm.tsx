@@ -12,7 +12,7 @@ const WaitlistForm = () => {
     setLoading(true);
     setError("");
     try {
-      const res = await fetch("https://formspree.io/f/mnqekzqg", {
+      const res = await fetch("https://formspree.io/f/xvgrjwew", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
