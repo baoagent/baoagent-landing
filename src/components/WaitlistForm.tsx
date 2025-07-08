@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const WaitlistForm = () => {
   const [email, setEmail] = useState("");
@@ -7,7 +7,7 @@ const WaitlistForm = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
     setError("");
@@ -33,7 +33,7 @@ const WaitlistForm = () => {
     <section className="w-full max-w-md px-6 py-10 flex flex-col items-center">
       <h2 className="text-2xl font-semibold mb-4 text-gray-900 text-center">Join the Waitlist</h2>
       {submitted ? (
-        <div className="text-green-600 font-medium">Thank you for joining! We'll be in touch soon.</div>
+        <div className="text-green-600 font-medium">Thank you for joining! We&apos;ll be in touch soon.</div>
       ) : (
         <form onSubmit={handleSubmit} className="w-full flex flex-col gap-4">
           <input
