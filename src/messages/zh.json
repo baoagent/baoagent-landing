@@ -1,0 +1,44 @@
+{
+    "hero": {
+        "title": "BAO Agent",
+        "subtitle": "AI驱动的中小企业行政管理运营平台",
+        "description": "通过智能自动化实现中小企业行政管理运营的民主化。我们弥合了年长企业主与年轻运营者之间的代际知识差距，使用AI代理将手动、重复的工作流程转变为高效、可扩展的运营。"
+    },
+    "howItWorks": {
+        "title": "工作原理",
+        "scheduling": {
+            "title": "自动化客户调度",
+            "description": "我们的AI代理通过短信、电话和电子邮件处理预约预订，并发送定期调度提醒以保持客户参与度。"
+        },
+        "staffing": {
+            "title": "智能人员配置和资源管理",
+            "description": "根据时间可用性、位置邻近性和技能要求自动安排人员和设备，以实现最佳效率。"
+        },
+        "billing": {
+            "title": "无缝计费和收款",
+            "description": "处理发票生成、收款和通过多种渠道（短信、电话、电子邮件）的自动跟进，对逾期账户采用升级协议。"
+        },
+        "analytics": {
+            "title": "综合业务分析",
+            "description": "提供客户模式、收入趋势、运营效率和预测分析的实时洞察，以推动战略决策制定和增长机会。"
+        }
+    },
+    "waitlist": {
+        "title": "加入候补名单",
+        "emailPlaceholder": "您的电子邮件地址",
+        "joinButton": "加入候补名单",
+        "joiningButton": "正在加入...",
+        "successMessage": "感谢您的加入！我们会尽快与您联系。",
+        "errorMessage": "出现错误。请稍后再试。"
+    },
+    "contact": {
+        "title": "联系我们",
+        "copyright": "版权所有。"
+    },
+    "navigation": {
+        "scheduling": "调度",
+        "staffing": "人员配置",
+        "billing": "计费",
+        "analytics": "分析"
+    }
+}

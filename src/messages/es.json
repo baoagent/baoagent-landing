@@ -1,0 +1,44 @@
+{
+    "hero": {
+        "title": "BAO Agent",
+        "subtitle": "Plataforma de Operaciones Administrativas para Pequeñas Empresas con IA",
+        "description": "Democratizando las operaciones administrativas de pequeñas empresas a través de la automatización inteligente. Conectamos la brecha generacional de conocimiento entre propietarios de empresas envejecidos y operadores jóvenes, usando agentes de IA para transformar flujos de trabajo manuales y repetitivos en operaciones eficientes y escalables."
+    },
+    "howItWorks": {
+        "title": "Cómo Funciona",
+        "scheduling": {
+            "title": "Programación Automatizada de Clientes",
+            "description": "Nuestro agente de IA maneja la reserva de citas por texto, llamadas telefónicas y correo electrónico, además de enviar recordatorios de programación periódicos para mantener a los clientes comprometidos."
+        },
+        "staffing": {
+            "title": "Gestión Inteligente de Personal y Recursos",
+            "description": "Programa automáticamente personal y equipos basándose en disponibilidad de tiempo, proximidad de ubicación y requisitos de habilidades para una eficiencia óptima."
+        },
+        "billing": {
+            "title": "Facturación y Cobranza Sin Problemas",
+            "description": "Maneja la generación de facturas, recolección de pagos y seguimiento automatizado a través de múltiples canales (texto, teléfono, correo electrónico) con protocolos de escalación para cuentas vencidas."
+        },
+        "analytics": {
+            "title": "Análisis Empresarial Integral",
+            "description": "Proporciona información en tiempo real sobre patrones de clientes, tendencias de ingresos, eficiencia operativa y análisis predictivo para impulsar la toma de decisiones estratégicas y oportunidades de crecimiento."
+        }
+    },
+    "waitlist": {
+        "title": "Únete a la Lista de Espera",
+        "emailPlaceholder": "Tu dirección de correo electrónico",
+        "joinButton": "Unirse a la Lista",
+        "joiningButton": "Uniéndose...",
+        "successMessage": "¡Gracias por unirte! Te contactaremos pronto.",
+        "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
+    },
+    "contact": {
+        "title": "Contáctanos",
+        "copyright": "Todos los derechos reservados."
+    },
+    "navigation": {
+        "scheduling": "Programación",
+        "staffing": "Personal",
+        "billing": "Facturación",
+        "analytics": "Análisis"
+    }
+}
