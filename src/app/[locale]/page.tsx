@@ -3,6 +3,7 @@ import { getMessages } from 'next-intl/server';
 import HeroSection from "../../components/HeroSection";
 import HowItWorksSection from "../../components/HowItWorksSection";
 import WaitlistForm from "../../components/WaitlistForm";
+import QuestionnaireSection from "../../components/QuestionnaireSection";
 import ContactSection from "../../components/ContactSection";
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
@@ -13,6 +14,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     <>
       <HeroSection messages={messages} />
       <HowItWorksSection messages={messages} />
+      <QuestionnaireSection messages={messages} />
       <WaitlistForm messages={messages} />
       <ContactSection messages={messages} />
     </>

@@ -1,4 +1,4 @@
-# BAO Agent
+# BAO Agent - 包总管
 
 AI-Powered Small Business Administrative Operations Agent
 

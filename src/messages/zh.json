@@ -1,44 +1,134 @@
 {
     "hero": {
-        "title": "BAO Agent",
-        "subtitle": "AI驱动的中小企业行政管理运营平台",
-        "description": "通过智能自动化实现中小企业行政管理运营的民主化。我们弥合了年长企业主与年轻运营者之间的代际知识差距，使用AI代理将手动、重复的工作流程转变为高效、可扩展的运营。"
+        "title": "包总管",
+        "subtitle": "BAO Agent - 小企业智能管理平台",
+        "description": "用AI自动化解放小企业主。我们帮老一辈创业者和年轻经营者搭桥，把那些重复性工作交给AI处理，让运营更高效、更省心。"
     },
     "howItWorks": {
-        "title": "工作原理",
+        "title": "怎么用",
         "scheduling": {
-            "title": "自动化客户调度",
-            "description": "我们的AI代理通过短信、电话和电子邮件处理预约预订，并发送定期调度提醒以保持客户参与度。"
+            "title": "自动预约管理",
+            "description": "AI帮你接单排期：短信、电话、邮件全搞定，还能自动发提醒，客户再也不放鸽子。"
         },
         "staffing": {
-            "title": "智能人员配置和资源管理",
-            "description": "根据时间可用性、位置邻近性和技能要求自动安排人员和设备，以实现最佳效率。"
+            "title": "智能排班派工",
+            "description": "看谁有空、在哪、会干啥，自动安排人手上岗，设备调度也包给我们。"
         },
         "billing": {
-            "title": "无缝计费和收款",
-            "description": "处理发票生成、收款和通过多种渠道（短信、电话、电子邮件）的自动跟进，对逾期账户采用升级协议。"
+            "title": "省心收付款",
+            "description": "开票收款一条龙，催款自动发（短信/电话/邮件），欠款太久还会智能升级处理。"
         },
         "analytics": {
-            "title": "综合业务分析",
-            "description": "提供客户模式、收入趋势、运营效率和预测分析的实时洞察，以推动战略决策制定和增长机会。"
+            "title": "数据分析",
+            "description": "实时看客户喜好、收入变化、运营效率，预测未来趋势，帮你做更聪明的决定。"
         }
     },
     "waitlist": {
-        "title": "加入候补名单",
-        "emailPlaceholder": "您的电子邮件地址",
-        "joinButton": "加入候补名单",
-        "joiningButton": "正在加入...",
-        "successMessage": "感谢您的加入！我们会尽快与您联系。",
-        "errorMessage": "出现错误。请稍后再试。"
+        "title": "抢先体验",
+        "emailPlaceholder": "输入常用邮箱",
+        "joinButton": "立即加入",
+        "joiningButton": "提交中...",
+        "successMessage": "收到！我们会尽快联系您",
+        "errorMessage": "手抖了，请再试一次"
     },
     "contact": {
         "title": "联系我们",
-        "copyright": "版权所有。"
+        "copyright": "保留所有权利"
+    },
+    "questionnaire": {
+        "title": "聊聊您的生意",
+        "description": "花2分钟告诉我们需求，给您定制解决方案",
+        "openButton": "点我填写",
+        "modalTitle": "您的生意档案",
+        "nameLabel": "怎么称呼您？",
+        "namePlaceholder": "姓名或公司名",
+        "businessTypeLabel": "做什么行业？",
+        "businessTypePlaceholder": "选您的主业",
+        "businessTypes": {
+            "retail": "零售店",
+            "food_beverage": "餐饮店",
+            "services": "服务行业",
+            "manufacturing": "生产加工",
+            "technology": "科技/IT",
+            "healthcare": "医疗健康",
+            "construction": "建筑工程",
+            "consulting": "咨询服务",
+            "education": "教育培训",
+            "other": "其他"
+        },
+        "painPointLabel": "最头疼的管理问题？",
+        "painPointPlaceholder": "比如总得亲自盯的事情、重复性高的活...",
+        "contactMethodLabel": "怎么联系您？",
+        "selectContactMethod": "选联系方式",
+        "email": "邮箱",
+        "phone": "电话",
+        "whatsapp": "WhatsApp",
+        "other": "其他",
+        "contactInfoLabel": "联系方式",
+        "otherContactLabel": "其他途径",
+        "otherContactPlaceholder": "比如微信/钉钉等",
+        "emailPlaceholder": "you@company.com",
+        "phonePlaceholder": "13800138000",
+        "whatsappPlaceholder": "+86 13800138000",
+        "contactInfoRequired": "请留个联系方式",
+        "invalidEmail": "邮箱格式不对",
+        "invalidPhone": "电话格式有误",
+        "invalidWhatsApp": "WhatsApp号不对",
+        "submitButton": "提交",
+        "submittingButton": "提交中...",
+        "successMessage": "太棒了！我们会据此优化方案",
+        "errorMessage": "提交失败，稍后再试"
     },
     "navigation": {
-        "scheduling": "调度",
-        "staffing": "人员配置",
-        "billing": "计费",
-        "analytics": "分析"
+        "scheduling": "预约管理",
+        "staffing": "排班派工",
+        "billing": "收款催款",
+        "analytics": "数据分析"
+    },
+    "sharedContact": {
+        "nameLabel": "您的名字",
+        "namePlaceholder": "怎么称呼您",
+        "contactMethodLabel": "联系途径",
+        "selectContactMethod": "选您常用的",
+        "email": "邮箱",
+        "phone": "电话",
+        "whatsapp": "WhatsApp",
+        "linkedin": "领英",
+        "twitter": "推特/X",
+        "instagram": "Ins",
+        "facebook": "脸书",
+        "weibo": "微博",
+        "wechat": "微信",
+        "xiaohongshu": "小红书",
+        "other": "其他",
+        "contactInfoLabel": "账号信息",
+        "otherContactLabel": "其他平台",
+        "otherContactPlaceholder": "比如钉钉/飞书等",
+        "otherContactDetailsLabel": "具体账号",
+        "otherContactDetailsPlaceholder": "您的联系方式",
+        "emailPlaceholder": "you@company.com",
+        "phonePlaceholder": "13800138000",
+        "whatsappPlaceholder": "+86 13800138000",
+        "linkedinPlaceholder": "您的领英主页",
+        "twitterPlaceholder": "您的@账号",
+        "instagramPlaceholder": "您的Ins账号",
+        "facebookPlaceholder": "您的FB主页",
+        "weiboPlaceholder": "您的微博名",
+        "wechatPlaceholder": "您的微信号",
+        "xiaohongshuPlaceholder": "您的小红书号",
+        "contactInfoRequired": "请留个联系方式",
+        "invalidEmail": "邮箱格式不对",
+        "invalidPhone": "电话格式有误",
+        "invalidWhatsApp": "WhatsApp号不对",
+        "invalidLinkedIn": "领英信息有误",
+        "invalidTwitter": "推特账号不对",
+        "invalidInstagram": "Ins账号不对",
+        "invalidFacebook": "脸书账号不对",
+        "invalidWeibo": "微博名不对",
+        "invalidWeChat": "微信号不对",
+        "invalidXiaohongshu": "小红书号不对",
+        "submitButton": "提交",
+        "submittingButton": "提交中...",
+        "errorMessage": "提交失败，稍后再试"
     }
 }

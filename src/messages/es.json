@@ -1,44 +1,137 @@
 {
     "hero": {
         "title": "BAO Agent",
-        "subtitle": "Plataforma de Operaciones Administrativas para Pequeñas Empresas con IA",
-        "description": "Democratizando las operaciones administrativas de pequeñas empresas a través de la automatización inteligente. Conectamos la brecha generacional de conocimiento entre propietarios de empresas envejecidos y operadores jóvenes, usando agentes de IA para transformar flujos de trabajo manuales y repetitivos en operaciones eficientes y escalables."
+        "subtitle": "Plataforma de Operaciones Empresariales Potenciada por IA",
+        "description": "Transforma tus flujos de trabajo manuales y repetitivos en operaciones inteligentes y escalables. Conectamos la brecha generacional de conocimiento entre propietarios de empresas experimentados y operadores de nueva generación, usando agentes de IA para democratizar la propiedad rentable de pequeñas empresas."
     },
     "howItWorks": {
         "title": "Cómo Funciona",
         "scheduling": {
-            "title": "Programación Automatizada de Clientes",
-            "description": "Nuestro agente de IA maneja la reserva de citas por texto, llamadas telefónicas y correo electrónico, además de enviar recordatorios de programación periódicos para mantener a los clientes comprometidos."
+            "title": "Programación Inteligente de Clientes",
+            "description": "Nuestro agente de IA gestiona autónomamente las reservas de citas a través de texto, teléfono y correo electrónico. Aprende las preferencias de los clientes, envía recordatorios proactivos y optimiza la programación para maximizar ingresos y reducir ausencias."
         },
         "staffing": {
-            "title": "Gestión Inteligente de Personal y Recursos",
-            "description": "Programa automáticamente personal y equipos basándose en disponibilidad de tiempo, proximidad de ubicación y requisitos de habilidades para una eficiencia óptima."
+            "title": "Optimización Inteligente de Recursos",
+            "description": "Coordina automáticamente personal y equipos basándose en disponibilidad, ubicación y requisitos de habilidades. Nuestra IA asegura una asignación óptima de recursos mientras reduce conflictos de programación e ineficiencias operativas."
         },
         "billing": {
-            "title": "Facturación y Cobranza Sin Problemas",
-            "description": "Maneja la generación de facturas, recolección de pagos y seguimiento automatizado a través de múltiples canales (texto, teléfono, correo electrónico) con protocolos de escalación para cuentas vencidas."
+            "title": "Cobranza Automatizada de Ingresos",
+            "description": "Optimiza todo tu proceso de facturación desde la generación de facturas hasta la cobranza de pagos. Nuestra IA maneja seguimientos multicanal, gestiona protocolos de escalación y asegura un flujo de efectivo constante con mínima intervención manual."
         },
         "analytics": {
-            "title": "Análisis Empresarial Integral",
-            "description": "Proporciona información en tiempo real sobre patrones de clientes, tendencias de ingresos, eficiencia operativa y análisis predictivo para impulsar la toma de decisiones estratégicas y oportunidades de crecimiento."
+            "title": "Inteligencia Empresarial Predictiva",
+            "description": "Obtén insights profundos sobre comportamiento de clientes, patrones de ingresos y eficiencia operativa. Nuestra IA identifica oportunidades de crecimiento, predice tendencias y proporciona recomendaciones accionables para impulsar decisiones estratégicas."
         }
     },
     "waitlist": {
         "title": "Únete a la Lista de Espera",
-        "emailPlaceholder": "Tu dirección de correo electrónico",
+        "emailPlaceholder": "Ingresa tu dirección de correo electrónico",
         "joinButton": "Unirse a la Lista",
         "joiningButton": "Uniéndose...",
-        "successMessage": "¡Gracias por unirte! Te contactaremos pronto.",
+        "successMessage": "¡Gracias por unirte! Te contactaremos pronto con acceso exclusivo temprano.",
         "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
     },
     "contact": {
         "title": "Contáctanos",
-        "copyright": "Todos los derechos reservados."
+        "copyright": "© 2025 BAO Agent. Todos los derechos reservados."
+    },
+    "questionnaire": {
+        "title": "Cuéntanos Sobre Tu Negocio",
+        "description": "Ayúdanos a entender tus desafíos operativos únicos para que podamos personalizar nuestras soluciones de IA y maximizar la eficiencia y rentabilidad de tu negocio.",
+        "openButton": "Comparte Tu Historia de Negocio",
+        "modalTitle": "Cuéntanos Sobre Tu Negocio",
+        "nameLabel": "Tu Nombre / Nombre de la Empresa",
+        "namePlaceholder": "Ingresa tu nombre o nombre de la empresa",
+        "businessTypeLabel": "¿Qué tipo de pequeña empresa operas?",
+        "businessTypePlaceholder": "Selecciona tu tipo de negocio",
+        "businessTypes": {
+            "retail": "Minorista",
+            "food_beverage": "Alimentos y Bebidas",
+            "services": "Servicios",
+            "manufacturing": "Manufactura",
+            "technology": "Tecnología",
+            "healthcare": "Salud",
+            "construction": "Construcción",
+            "consulting": "Consultoría",
+            "education": "Educación",
+            "cleaning": "Servicios de Limpieza",
+            "laundry": "Lavandería/Lavado",
+            "storage": "Autoalmacenamiento",
+            "other": "Otro"
+        },
+        "painPointLabel": "¿Cuál es tu mayor desafío operativo?",
+        "painPointPlaceholder": "Describe las tareas manuales y repetitivas que consumen tu tiempo e impiden que te enfoques en hacer crecer tu negocio...",
+        "contactMethodLabel": "Método de Contacto Preferido",
+        "selectContactMethod": "Selecciona método de contacto",
+        "email": "Correo Electrónico",
+        "phone": "Teléfono",
+        "whatsapp": "WhatsApp",
+        "other": "Otro",
+        "contactInfoLabel": "Información de Contacto",
+        "otherContactLabel": "Otro Método de Contacto",
+        "otherContactPlaceholder": "Describe tu método de contacto preferido",
+        "emailPlaceholder": "tu.email@ejemplo.com",
+        "phonePlaceholder": "+1 (555) 123-4567",
+        "whatsappPlaceholder": "+1 (555) 123-4567",
+        "contactInfoRequired": "Por favor proporciona tu información de contacto",
+        "invalidEmail": "Por favor ingresa una dirección de correo válida",
+        "invalidPhone": "Por favor ingresa un número de teléfono válido",
+        "invalidWhatsApp": "Por favor ingresa un número de WhatsApp válido",
+        "submitButton": "Enviar",
+        "submittingButton": "Enviando...",
+        "successMessage": "¡Gracias por compartir! Esta información nos ayuda a construir soluciones que realmente abordan tus necesidades.",
+        "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
     },
     "navigation": {
         "scheduling": "Programación",
         "staffing": "Personal",
         "billing": "Facturación",
         "analytics": "Análisis"
+    },
+    "sharedContact": {
+        "nameLabel": "Tu Nombre / Nombre de la Empresa",
+        "namePlaceholder": "Ingresa tu nombre o nombre de la empresa",
+        "contactMethodLabel": "Método de Contacto Preferido",
+        "selectContactMethod": "Selecciona método de contacto",
+        "email": "Correo Electrónico",
+        "phone": "Teléfono",
+        "whatsapp": "WhatsApp",
+        "linkedin": "LinkedIn",
+        "twitter": "Twitter/X",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "weibo": "Weibo",
+        "wechat": "WeChat",
+        "xiaohongshu": "Xiaohongshu (RedNote)",
+        "other": "Otro",
+        "contactInfoLabel": "Información de Contacto",
+        "otherContactLabel": "Otro Método de Contacto",
+        "otherContactPlaceholder": "Describe tu método de contacto preferido",
+        "otherContactDetailsLabel": "Detalles de Contacto",
+        "otherContactDetailsPlaceholder": "Ingresa tu información de contacto",
+        "emailPlaceholder": "tu.email@ejemplo.com",
+        "phonePlaceholder": "+1 (555) 123-4567",
+        "whatsappPlaceholder": "+1 (555) 123-4567",
+        "linkedinPlaceholder": "tu-usuario-linkedin",
+        "twitterPlaceholder": "tutusuario",
+        "instagramPlaceholder": "tuperfil",
+        "facebookPlaceholder": "tuperfil",
+        "weiboPlaceholder": "tu_handle_weibo",
+        "wechatPlaceholder": "tu_id_wechat",
+        "xiaohongshuPlaceholder": "tu_usuario_xiaohongshu",
+        "contactInfoRequired": "Por favor proporciona tu información de contacto",
+        "invalidEmail": "Por favor ingresa una dirección de correo válida",
+        "invalidPhone": "Por favor ingresa un número de teléfono válido",
+        "invalidWhatsApp": "Por favor ingresa un número de WhatsApp válido",
+        "invalidLinkedIn": "Por favor ingresa un nombre de usuario de LinkedIn válido",
+        "invalidTwitter": "Por favor ingresa un handle de Twitter/X válido",
+        "invalidInstagram": "Por favor ingresa un nombre de usuario de Instagram válido",
+        "invalidFacebook": "Por favor ingresa un nombre de usuario de Facebook válido",
+        "invalidWeibo": "Por favor ingresa un handle de Weibo válido",
+        "invalidWeChat": "Por favor ingresa un ID de WeChat válido",
+        "invalidXiaohongshu": "Por favor ingresa un nombre de usuario de Xiaohongshu válido",
+        "submitButton": "Enviar",
+        "submittingButton": "Enviando...",
+        "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
     }
 }

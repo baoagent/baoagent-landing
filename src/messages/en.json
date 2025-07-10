@@ -1,44 +1,137 @@
 {
     "hero": {
         "title": "BAO Agent",
-        "subtitle": "AI-Powered Small Business Administrative Operations Platform",
-        "description": "Democratizing small business administrative operations through intelligent automation. We bridge the generational knowledge gap between aging business owners and young operators, using AI agents to transform manual, repetitive workflows into efficient, scalable operations."
+        "subtitle": "AI-Powered Small Business Operations Platform",
+        "description": "Transform your manual, repetitive workflows into intelligent, scalable operations. We bridge the generational knowledge gap between seasoned business owners and next-generation operators, using AI agents to democratize profitable small business ownership."
     },
     "howItWorks": {
         "title": "How It Works",
         "scheduling": {
-            "title": "Automated Customer Scheduling",
-            "description": "Our AI agent handles appointment booking via text, phone calls, and email, plus sends periodic scheduling reminders to keep customers engaged."
+            "title": "Intelligent Customer Scheduling",
+            "description": "Our AI agent autonomously manages appointment booking across text, phone, and email channels. It learns customer preferences, sends proactive reminders, and optimizes scheduling to maximize revenue and reduce no-shows."
         },
         "staffing": {
-            "title": "Intelligent Staffing & Resource Management",
-            "description": "Automatically schedules personnel and equipment based on time availability, location proximity, and skill requirements for optimal efficiency."
+            "title": "Smart Resource Optimization",
+            "description": "Automatically coordinate personnel and equipment based on availability, location, and skill requirements. Our AI ensures optimal resource allocation while reducing scheduling conflicts and operational inefficiencies."
         },
         "billing": {
-            "title": "Seamless Billing & Collections",
-            "description": "Handles invoice generation, payment collection, and automated follow-up via multiple channels (text, phone, email) with escalation protocols for overdue accounts."
+            "title": "Automated Revenue Collection",
+            "description": "Streamline your entire billing process from invoice generation to payment collection. Our AI handles multi-channel follow-ups, manages escalation protocols, and ensures consistent cash flow with minimal manual intervention."
         },
         "analytics": {
-            "title": "Comprehensive Business Analytics",
-            "description": "Provides real-time insights on customer patterns, revenue trends, operational efficiency, and predictive analytics to drive strategic decision-making and growth opportunities."
+            "title": "Predictive Business Intelligence",
+            "description": "Gain deep insights into customer behavior, revenue patterns, and operational efficiency. Our AI identifies growth opportunities, predicts trends, and provides actionable recommendations to drive strategic decision-making."
         }
     },
     "waitlist": {
         "title": "Join the Waitlist",
-        "emailPlaceholder": "Your email address",
+        "emailPlaceholder": "Enter your email address",
         "joinButton": "Join Waitlist",
         "joiningButton": "Joining...",
-        "successMessage": "Thank you for joining! We'll be in touch soon.",
+        "successMessage": "Thank you for joining! We'll be in touch soon with exclusive early access.",
         "errorMessage": "Something went wrong. Please try again later."
     },
     "contact": {
         "title": "Contact Us",
-        "copyright": "All rights reserved."
+        "copyright": "© 2025 BAO Agent. All rights reserved."
+    },
+    "questionnaire": {
+        "title": "Tell Us About Your Business",
+        "description": "Help us understand your unique operational challenges so we can tailor our AI solutions to maximize your business efficiency and profitability.",
+        "openButton": "Share Your Business Story",
+        "modalTitle": "Tell Us About Your Business",
+        "nameLabel": "Your Name / Company Name",
+        "namePlaceholder": "Enter your name or company name",
+        "businessTypeLabel": "What type of small business do you operate?",
+        "businessTypePlaceholder": "Select your business type",
+        "businessTypes": {
+            "retail": "Retail",
+            "food_beverage": "Food & Beverage",
+            "services": "Services",
+            "manufacturing": "Manufacturing",
+            "technology": "Technology",
+            "healthcare": "Healthcare",
+            "construction": "Construction",
+            "consulting": "Consulting",
+            "education": "Education",
+            "cleaning": "Cleaning Services",
+            "laundry": "Laundromat/Laundry",
+            "storage": "Self-Storage",
+            "other": "Other"
+        },
+        "painPointLabel": "What's your biggest operational challenge?",
+        "painPointPlaceholder": "Describe the manual, repetitive tasks that consume your time and prevent you from focusing on growing your business...",
+        "contactMethodLabel": "Preferred Contact Method",
+        "selectContactMethod": "Select contact method",
+        "email": "Email",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp",
+        "other": "Other",
+        "contactInfoLabel": "Contact Information",
+        "otherContactLabel": "Other Contact Method",
+        "otherContactPlaceholder": "Describe your preferred contact method",
+        "emailPlaceholder": "your.email@example.com",
+        "phonePlaceholder": "+1 (555) 123-4567",
+        "whatsappPlaceholder": "+1 (555) 123-4567",
+        "contactInfoRequired": "Please provide your contact information",
+        "invalidEmail": "Please enter a valid email address",
+        "invalidPhone": "Please enter a valid phone number",
+        "invalidWhatsApp": "Please enter a valid WhatsApp number",
+        "submitButton": "Submit",
+        "submittingButton": "Submitting...",
+        "successMessage": "Thank you for sharing! This information helps us build solutions that truly address your needs.",
+        "errorMessage": "Something went wrong. Please try again later."
     },
     "navigation": {
         "scheduling": "Scheduling",
         "staffing": "Staffing",
         "billing": "Billing",
         "analytics": "Analytics"
+    },
+    "sharedContact": {
+        "nameLabel": "Your Name / Company Name",
+        "namePlaceholder": "Enter your name or company name",
+        "contactMethodLabel": "Preferred Contact Method",
+        "selectContactMethod": "Select contact method",
+        "email": "Email",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp",
+        "linkedin": "LinkedIn",
+        "twitter": "Twitter/X",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "weibo": "Weibo",
+        "wechat": "WeChat",
+        "xiaohongshu": "Xiaohongshu (RedNote)",
+        "other": "Other",
+        "contactInfoLabel": "Contact Information",
+        "otherContactLabel": "Other Contact Method",
+        "otherContactPlaceholder": "Describe your preferred contact method",
+        "otherContactDetailsLabel": "Contact Details",
+        "otherContactDetailsPlaceholder": "Enter your contact information",
+        "emailPlaceholder": "your.email@example.com",
+        "phonePlaceholder": "+1 (555) 123-4567",
+        "whatsappPlaceholder": "+1 (555) 123-4567",
+        "linkedinPlaceholder": "your-linkedin-username",
+        "twitterPlaceholder": "yourhandle",
+        "instagramPlaceholder": "yourprofile",
+        "facebookPlaceholder": "yourprofile",
+        "weiboPlaceholder": "your_weibo_handle",
+        "wechatPlaceholder": "your_wechat_id",
+        "xiaohongshuPlaceholder": "your_xiaohongshu_username",
+        "contactInfoRequired": "Please provide your contact information",
+        "invalidEmail": "Please enter a valid email address",
+        "invalidPhone": "Please enter a valid phone number",
+        "invalidWhatsApp": "Please enter a valid WhatsApp number",
+        "invalidLinkedIn": "Please enter a valid LinkedIn username",
+        "invalidTwitter": "Please enter a valid Twitter/X handle",
+        "invalidInstagram": "Please enter a valid Instagram username",
+        "invalidFacebook": "Please enter a valid Facebook username",
+        "invalidWeibo": "Please enter a valid Weibo handle",
+        "invalidWeChat": "Please enter a valid WeChat ID",
+        "invalidXiaohongshu": "Please enter a valid Xiaohongshu username",
+        "submitButton": "Submit",
+        "submittingButton": "Submitting...",
+        "errorMessage": "Something went wrong. Please try again later."
     }
 }
