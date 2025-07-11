@@ -24,7 +24,7 @@
         }
     },
     "waitlist": {
-        "title": "加入候补名单",
+        "title": "加入体验名单",
         "emailPlaceholder": "输入您的电子邮箱",
         "joinButton": "加入名单",
         "joiningButton": "加入中...",
