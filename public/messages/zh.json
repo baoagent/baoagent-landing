@@ -2,7 +2,7 @@
     "hero": {
         "title": "包总管智能代理",
         "subtitle": "人工智能驱动的小型企业运营平台",
-        "description": "将您的手动重复工作流程转变为智能化、可扩展的运营体系。我们运用AI代理弥合资深企业主与新生代运营者之间的代际知识鸿沟，普及盈利性小企业所有权。"
+        "description": "将您的手动重复工作流程转变为智能化、可扩展的运营体系。我们运用AI代理指数型提高企业效率，弥合资深企业主与新生代运营者之间的代际知识鸿沟。"
     },
     "howItWorks": {
         "title": "运作原理",
@@ -24,7 +24,7 @@
         }
     },
     "waitlist": {
-        "title": "加入体验名单",
+        "title": "加入候补名单",
         "emailPlaceholder": "输入您的电子邮箱",
         "joinButton": "加入名单",
         "joiningButton": "加入中...",
@@ -36,10 +36,10 @@
         "copyright": "© 2025 BAO智能代理 版权所有"
     },
     "questionnaire": {
-        "title": "企业信息调研",
-        "description": "请说明您的独特运营挑战，我们将据此定制AI解决方案以最大化企业效能与盈利。",
-        "openButton": "分享企业情况",
-        "modalTitle": "企业信息提交",
+        "title": "运营信息调研",
+        "description": "请说明您的独特运营挑战，我们将据此定制AI解决方案以最大化运营效能与盈利。",
+        "openButton": "分享运营情况",
+        "modalTitle": "运营信息提交",
         "nameLabel": "姓名/公司名称",
         "namePlaceholder": "请输入姓名或公司名",
         "businessTypeLabel": "企业经营类型",

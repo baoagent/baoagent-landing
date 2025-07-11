@@ -8,15 +8,11 @@ export const LANGUAGE_NAMES = {
 export const SUPPORTED_LOCALES = Object.keys(LANGUAGE_NAMES) as Array<keyof typeof LANGUAGE_NAMES>;
 
 // API and form endpoints
-// Replace this with your actual Formspree endpoint
-// To get a test endpoint:
-// 1. Go to https://formspree.io
-// 2. Create a new form
-// 3. Copy the endpoint URL (format: https://formspree.io/f/YOUR_FORM_ID)
-// 
-// For production, use environment variables:
-// export const FORMSPREE_ENDPOINT = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT || "https://formspree.io/f/YOUR_TEST_FORM_ID";
-export const FORMSPREE_ENDPOINT = "https://formspree.io/f/xvgrjwew";
+export const FORMSPREE_ENDPOINT =
+    process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT ||
+    (process.env.NODE_ENV === "production"
+        ? "https://formspree.io/f/xvgrjwew" // Production endpoint
+        : "https://formspree.io/f/mzzgngkk"); // Development endpoint
 // Production: https://formspree.io/f/xvgrjwew
 // Development: https://formspree.io/f/mzzgngkk
 

@@ -9,8 +9,11 @@ export default getRequestConfig(async ({ locale }) => {
     // Validate that the incoming `locale` parameter is valid
     if (!locales.includes(locale as Locale)) notFound();
 
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+    const messages = await fetch(`${baseUrl}/messages/${locale}.json`).then(res => res.json());
+
     return {
         locale: locale as Locale,
-        messages: (await import(`../messages/${locale}.json`)).default
+        messages
     };
 }); 
