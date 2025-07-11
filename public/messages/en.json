@@ -4,8 +4,8 @@
         "subtitle": "AI-Powered Small Business Operations Platform",
         "description": "Transform your manual, repetitive workflows into intelligent, scalable operations. We exponentially grow your business efficiency and bridge the generational knowledge gap between seasoned business owners and next-generation operators."
     },
-    "howItWorks": {
-        "title": "How It Works",
+    "agentWorkflows": {
+        "title": "Agent Workflows",
         "scheduling": {
             "title": "Intelligent Customer Scheduling",
             "description": "Our AI agent autonomously manages appointment booking across text, phone, and email channels. It learns customer preferences, sends proactive reminders, and optimizes scheduling to maximize revenue and reduce no-shows."

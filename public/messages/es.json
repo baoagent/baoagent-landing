@@ -4,8 +4,8 @@
         "subtitle": "Plataforma de Operaciones Empresariales Potenciada por IA",
         "description": "Transforma tus flujos de trabajo manuales y repetitivos en operaciones inteligentes y escalables. Conectamos la brecha generacional de conocimiento entre propietarios de empresas experimentados y operadores de nueva generación, usando agentes de IA para democratizar la propiedad rentable de pequeñas empresas."
     },
-    "howItWorks": {
-        "title": "Cómo Funciona",
+    "agentWorkflows": {
+        "title": "Flujos de Trabajo de Agentes",
         "scheduling": {
             "title": "Programación Inteligente de Clientes",
             "description": "Nuestro agente de IA gestiona autónomamente las reservas de citas a través de texto, teléfono y correo electrónico. Aprende las preferencias de los clientes, envía recordatorios proactivos y optimiza la programación para maximizar ingresos y reducir ausencias."
