@@ -16,7 +16,7 @@ export const SUPPORTED_LOCALES = Object.keys(LANGUAGE_NAMES) as Array<keyof type
 // 
 // For production, use environment variables:
 // export const FORMSPREE_ENDPOINT = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT || "https://formspree.io/f/YOUR_TEST_FORM_ID";
-export const FORMSPREE_ENDPOINT = "https://formspree.io/f/mzzgngkk";
+export const FORMSPREE_ENDPOINT = "https://formspree.io/f/xvgrjwew";
 // Production: https://formspree.io/f/xvgrjwew
 // Development: https://formspree.io/f/mzzgngkk
 
