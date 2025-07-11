@@ -28,7 +28,7 @@ export const EMAIL_ADDRESSES = {
 
 // App configuration
 export const APP_CONFIG = {
-    name: 'BAO Agent - 包总管',
+    name: 'BAO Agent',
     description: 'AI-powered administrative assistant for small businesses',
     version: '1.0.0',
     maxFormLength: {
