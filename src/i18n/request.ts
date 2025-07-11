@@ -9,11 +9,36 @@ export default getRequestConfig(async ({ locale }) => {
     // Validate that the incoming `locale` parameter is valid
     if (!locales.includes(locale as Locale)) notFound();
 
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
-    const messages = await fetch(`${baseUrl}/messages/${locale}.json`).then(res => res.json());
+    try {
+        // During build time, try to load messages directly from the file system
+        if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'development') {
+            const messages = await import(`../../public/messages/${locale}.json`);
+            return {
+                locale: locale as Locale,
+                messages: messages.default || messages
+            };
+        }
+    } catch {
+        console.warn(`Failed to load messages for locale ${locale} from file system, trying fetch...`);
+    }
 
-    return {
-        locale: locale as Locale,
-        messages
-    };
+    // Fallback to fetch method
+    try {
+        const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+        const response = await fetch(`${baseUrl}/messages/${locale}.json`);
+
+        if (!response.ok) {
+            throw new Error(`Failed to fetch messages for locale ${locale}: ${response.status}`);
+        }
+
+        const messages = await response.json();
+
+        return {
+            locale: locale as Locale,
+            messages
+        };
+    } catch (error) {
+        console.error(`Error loading messages for locale ${locale}:`, error);
+        notFound();
+    }
 }); 
