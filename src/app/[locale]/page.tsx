@@ -1,7 +1,7 @@
 import React from "react";
 import { getMessages } from 'next-intl/server';
 import HeroSection from "../../components/HeroSection";
-import HowItWorksSection from "../../components/HowItWorksSection";
+import AgentWorkflowsSection from "../../components/AgentWorkflowsSection";
 import WaitlistForm from "../../components/WaitlistForm";
 import QuestionnaireSection from "../../components/QuestionnaireSection";
 import ContactSection from "../../components/ContactSection";
@@ -13,7 +13,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <HeroSection messages={messages} />
-      <HowItWorksSection messages={messages} />
+      <AgentWorkflowsSection messages={messages} />
       <QuestionnaireSection messages={messages} />
       <WaitlistForm messages={messages} />
       <ContactSection messages={messages} />

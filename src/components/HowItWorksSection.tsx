@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import FeatureCard from "./FeatureCard";
 import { createTranslator } from "../utils/translations";
 
-interface HowItWorksSectionProps {
+interface AgentWorkflowsSectionProps {
   messages: Record<string, unknown>;
 }
 
-const HowItWorksSection: React.FC<HowItWorksSectionProps> = ({ messages }) => {
+const AgentWorkflowsSection: React.FC<AgentWorkflowsSectionProps> = ({ messages }) => {
   const [activeCard, setActiveCard] = useState(0);
   const t = createTranslator(messages);
 
@@ -52,8 +52,6 @@ const HowItWorksSection: React.FC<HowItWorksSectionProps> = ({ messages }) => {
 
   return (
     <section className="w-full max-w-6xl px-6 py-16">
-      <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">{t('howItWorks.title')}</h2>
-      
       {/* Toggle Buttons */}
       <div className="flex flex-wrap justify-center gap-2 mb-8">
         {cards.map((card, index) => (
@@ -84,4 +82,4 @@ const HowItWorksSection: React.FC<HowItWorksSectionProps> = ({ messages }) => {
   );
 };
 
-export default HowItWorksSection; 
+export default AgentWorkflowsSection; 
